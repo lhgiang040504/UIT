@@ -1,0 +1,28 @@
+Xung đột (Collision): 
+Đây là trường hợp khi hai hoặc nhiều giá trị khác nhau được ánh xạ vào cùng một vị trí trong bảng băm. 
+Xung đột có thể xảy ra do bảng băm có kích thước hữu hạn và số lượng phần tử cần lưu trữ lớn hơn kích thước đó. 
+Có nhiều kỹ thuật giải quyết xung đột như phương pháp giải quyết xung đột bằng cách dùng danh sách liên kết (chaining) hoặc phương pháp giải quyết xung đột bằng cách dùng bảng băm thứ cấp (open addressing).
+
+Tràn (Overflow): 
+Tràn xảy ra khi bảng băm đã đạt đến giới hạn của nó và không còn đủ chỗ để lưu trữ thêm phần tử nào nữa. 
+Tràn có thể xảy ra khi thực hiện thêm phép ánh xạ vào bảng băm hoặc thêm phần tử vào danh sách liên kết trong trường hợp chaining. 
+Tràn có thể được xử lý bằng cách tăng kích thước của bảng băm hoặc sử dụng các kỹ thuật xử lý tràn khác.
+
+Đụng độ hoàn toàn (Perfect Hashing Collision): 
+Đụng độ hoàn toàn xảy ra khi một bảng băm có số lượng phần tử cố định và không có xung đột. 
+Điều này đòi hỏi một hàm băm hoàn hảo, tức là mỗi phần tử sẽ có một chỉ mục duy nhất trong bảng băm.
+
+Hiệu suất kém (Performance Degradation): 
+Trong một số trường hợp, bảng băm có thể trở nên không hiệu quả và hiệu suất giảm đi. 
+Điều này có thể xảy ra khi hàm băm không phân bố đồng đều các khóa vào các ô của bảng băm hoặc khi số lượng xung đột và tràn quá lớn.
+
+Tấn công bằng từ điển (Dictionary Attacks): 
+Tấn công bằng từ điển là một phương pháp tấn công thường được sử dụng để phá vỡ hàm băm. 
+Kẻ tấn công tạo ra một danh sách các giá trị từ điển và thử nghiệm chúng với hàm băm để tìm ra các giá trị khớp.
+
+Xử lý dữ liệu lớn (Handling Large Data): 
+Trong trường hợp xử lý dữ liệu lớn, bảng băm có thể không đủ để lưu trữ tất cả các phần tử. 
+Trong trường hợp này, các kỹ thuật như bảng băm phân tán (hashing) song song hoặc sử dụng bảng băm không thay đổi (immutable hash table) có thể được sử dụng để xử lý dữ liệu lớn.
+
+Những trường hợp trên chỉ là một số ví dụ phổ biến. 
+Bảng băm có thể được áp dụng và điều chỉnh tùy thuộc vào ứng dụng cụ thể và yêu cầu của nó.
