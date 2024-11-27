@@ -1,0 +1,25 @@
+	test1	test2	test3	test4	test5	test6
+LinearRegression						0.66204
+Ridge						0.63705
+Lasso						0.63491
+ElasticNet						0.63445
+GradientBoostingRegressor						0.60647
+RandomForestRegressor						0.59042
+XGBRegressor						0.60366
+						
+KNeighborsRegressor						0.59983
+SVR						0.60822
+NN						0.49374
+						
+MLPRegressor						0.64006
+						
+LGBMRegressor						0.60193
+						
+CatBoostRegressor						0.57712
+adaboost_model						0.60612
+bagging_model						0.59148
+						
+VotingRegressor						
+TFDF						
+						
+					  	
